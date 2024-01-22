@@ -1,0 +1,27 @@
+.header,
+.footer {
+    background-color: palevioletred;
+    color: antiquewhite;
+    font-size: 24px;
+    display: flex;
+    padding: 10px;
+    align-content: center;
+}
+
+.footer {
+    padding: 5px 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Roboto, 'Times New Roman', Times, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
