@@ -17,7 +17,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     padding: 10px;
     font-size: 18px;
@@ -26,4 +26,16 @@ body {
 
 h1 {
     text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    align-content: center;
 }
